@@ -45,7 +45,7 @@ TypeEffects:
 	db POISON,       GRASS,        SUPER_EFFECTIVE
 	db POISON,       POISON,       NOT_VERY_EFFECTIVE
 	db POISON,       GROUND,       NOT_VERY_EFFECTIVE
-	db POISON,       BUG,          SUPER_EFFECTIVE
+;	db POISON,       BUG,          SUPER_EFFECTIVE    ; Gen 2+ removed this
 	db POISON,       ROCK,         NOT_VERY_EFFECTIVE
 	db POISON,       GHOST,        NOT_VERY_EFFECTIVE
 	db GROUND,       FIRE,         SUPER_EFFECTIVE
@@ -67,7 +67,8 @@ TypeEffects:
 	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
-	db BUG,          POISON,       SUPER_EFFECTIVE
+;	db BUG,          POISON,       SUPER_EFFECTIVE    ; Gen 2+ removed this
+	db BUG,          POISON,       NOT_VERY_EFFECTIVE ; Gen 2+ changed this to not-effective
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
 	db ROCK,         GROUND,       NOT_VERY_EFFECTIVE
@@ -75,11 +76,40 @@ TypeEffects:
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
-	db GHOST,        PSYCHIC_TYPE, NO_EFFECT
+;	db GHOST,        PSYCHIC_TYPE, NO_EFFECT          ; Gen 2+ removed this
+	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE    ; Gen 2+ fixed this to super
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db DARK,         GHOST,        SUPER_EFFECTIVE    ; Gen 2+ added Dark-Offensive
+	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE    ; Gen 2+ added Dark-Offensive
+	db DARK,         DARK,         NOT_VERY_EFFECTIVE ; Gen 2+ added Dark-Offensive
+	db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE ; Gen 2+ added Dark-Offensive
+	db GHOST,        DARK,         NOT_VERY_EFFECTIVE ; Gen 2+ added Dark-Defensive
+	db BUG,          DARK,         SUPER_EFFECTIVE    ; Gen 2+ added Dark-Defensive
+	db FIGHTING,     DARK,         SUPER_EFFECTIVE    ; Gen 2+ added Dark-Defensive
+	db PSYCHIC_TYPE, DARK,         NO_EFFECT          ; Gen 2+ added Dark-Defensive
+	db STEEL,        FIRE,         NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Offensive
+	db STEEL,        WATER,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Offensive
+	db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Offensive
+	db STEEL,        ICE,          SUPER_EFFECTIVE    ; Gen 2+ added Steel-Offensive
+	db STEEL,        ROCK,         SUPER_EFFECTIVE    ; Gen 2+ added Steel-Offensive
+	db STEEL,        STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Offensive
+	db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db FIRE,         STEEL,        SUPER_EFFECTIVE    ; Gen 2+ added Steel-Defensive
+	db GRASS,        STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db ICE,          STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db FIGHTING,     STEEL,        SUPER_EFFECTIVE    ; Gen 2+ added Steel-Defensive
+	db POISON,       STEEL,        NO_EFFECT          ; Gen 2+ added Steel-Defensive
+	db GROUND,       STEEL,        SUPER_EFFECTIVE    ; Gen 2+ added Steel-Defensive
+	db FLYING,       STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db PSYCHIC_TYPE, STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db BUG,          STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db ROCK,         STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db GHOST,        STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db DRAGON,       STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
+	db DARK,         STEEL,        NOT_VERY_EFFECTIVE ; Gen 2+ added Steel-Defensive
 	db -1 ; end

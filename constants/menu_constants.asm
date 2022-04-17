@@ -1,5 +1,7 @@
-BAG_ITEM_CAPACITY EQU 20
-PC_ITEM_CAPACITY  EQU 50
+; BAG_ITEM_CAPACITY EQU 20 ; Original Bag Max Capacity
+; PC_ITEM_CAPACITY  EQU 50 ; Original PC Mac Capacity
+BAG_ITEM_CAPACITY EQU 25   ; Altered Bag Max Capacity
+PC_ITEM_CAPACITY  EQU 60   ; Altered PC Max Capacity
 
 ; text box IDs
 	const_def 1

@@ -170,7 +170,95 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
+	const STRUGGLE     ; a5 ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
+; THIS IS NOW THE GEN2 LIST ; GSC ; gen# ; effect
+;	const SKETCH       ;    ;  a6 ; 2-01 ; (unused-splash)
+;	const TRIPLE_KICK  ;    ;  a7 ; 2-02 ; (2-5 hits)
+;	const THIEF        ;    ;  a8 ; 2-03 ; (Dark-type Payday)
+;	const SPIDER_WEB   ;    ;  a9 ; 2-04 ; (unused-splash)
+;	const MIND_READER  ;    ;  aa ; 2-05 ; (1-stage up accuracy)
+;	const NIGHTMARE    ;    ;  ab ; 2-06 ; (duplicate Dream Eater)
+;	const FLAME_WHEEL  ;    ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
+;	const SNORE        ;    ;  ad ; 2-08 ; (40-BP, Normal, 30% Flinch)
+;	const CURSE        ;    ;  ae ; 2-09 ; (1-stage up att/def, 1-stage down speed, currently-broken w/ DISABLE)
+;	const FLAIL        ;    ;  af ; 2-0a ; 
+;	const CONVERSION2  ;    ;  b0 ; 2-0b ; 
+;	const AEROBLAST    ;    ;  b1 ; 2-0c ; 
+;	const COTTON_SPORE ;    ;  b2 ; 2-0d ; 
+;	const REVERSAL     ;    ;  b3 ; 2-0e ; 
+;	const SPITE        ;    ;  b4 ; 2-0f ; 
+;	const POWDER_SNOW  ;    ;  b5 ; 2-10 ; 
+;	const PROTECT      ;    ;  b6 ; 2-11 ; 
+;	const MACH_PUNCH   ;    ;  b7 ; 2-12 ; 
+;	const SCARY_FACE   ;    ;  b8 ; 2-13 ; 
+;	const FAINT_ATTACK ;    ;  b9 ; 2-14 ; 
+;	const SWEET_KISS   ;    ;  ba ; 2-15 ; 
+;	const BELLY_DRUM   ;    ;  bb ; 2-16 ; 
+;	const SLUDGE_BOMB  ;    ;  bc ; 2-17 ; 
+;	const MUD_SLAP     ;    ;  bd ; 2-18 ; 
+;	const OCTAZOOKA    ;    ;  be ; 2-19 ; 
+;	const SPIKES       ;    ;  bf ; 2-1a ; 
+;	const ZAP_CANNON   ;    ;  c0 ; 2-1b ; 
+;	const FORESIGHT    ;    ;  c1 ; 2-1c ; 
+;	const DESTINY_BOND ;    ;  c2 ; 2-1d ; 
+;	const PERISH_SONG  ;    ;  c3 ; 2-1e ; 
+;	const ICY_WIND     ;    ;  c4 ; 2-1f ; 
+;	const DETECT       ;    ;  c5 ; 2-20 ; 
+;	const BONE_RUSH    ;    ;  c6 ; 2-21 ; 
+;	const LOCK_ON      ;    ;  c7 ; 2-22 ; 
+;	const OUTRAGE      ;    ;  c8 ; 2-23 ; 
+;	const SANDSTORM    ;    ;  c9 ; 2-24 ; 
+;	const GIGA_DRAIN   ;    ;  ca ; 2-25 ; 
+;	const ENDURE       ;    ;  cb ; 2-26 ; 
+;	const CHARM        ;    ;  cc ; 2-27 ; 
+;	const ROLLOUT      ;    ;  cd ; 2-28 ; 
+;	const FALSE_SWIPE  ;    ;  ce ; 2-29 ; 
+;	const SWAGGER      ;    ;  cf ; 2-2a ; 
+;	const MILK_DRINK   ;    ;  d0 ; 2-2b ; 
+;	const SPARK        ;    ;  d1 ; 2-2c ; 
+;	const FURY_CUTTER  ;    ;  d2 ; 2-2d ; 
+;	const STEEL_WING   ;    ;  d3 ; 2-2e ; 
+;	const MEAN_LOOK    ;    ;  d4 ; 2-2f ; 
+;	const ATTRACT      ;    ;  d5 ; 2-30 ; 
+;	const SLEEP_TALK   ;    ;  d6 ; 2-31 ; 
+;	const HEAL_BELL    ;    ;  d7 ; 2-32 ; 
+;	const RETURN       ;    ;  d8 ; 2-33 ; 
+;	const PRESENT      ;    ;  d9 ; 2-34 ; 
+;	const FRUSTRATION  ;    ;  da ; 2-35 ; 
+;	const SAFEGUARD    ;    ;  db ; 2-36 ; 
+;	const PAIN_SPLIT   ;    ;  dc ; 2-37 ; 
+;	const SACRED_FIRE  ;    ;  dd ; 2-38 ; 
+;	const MAGNITUDE    ;    ;  de ; 2-39 ; 
+;	const DYNAMICPUNCH ;    ;  df ; 2-3a ; 
+;	const MEGAHORN     ;    ;  e0 ; 2-3b ; 
+;	const DRAGONBREATH ;    ;  e1 ; 2-3c ; 
+;	const BATON_PASS   ;    ;  e2 ; 2-3d ; 
+;	const ENCORE       ;    ;  e3 ; 2-3e ; 
+;	const PURSUIT      ;    ;  e4 ; 2-3f ; 
+;	const RAPID_SPIN   ;    ;  e5 ; 2-40 ; 
+;	const SWEET_SCENT  ;    ;  e6 ; 2-41 ; 
+;	const IRON_TAIL    ;    ;  e7 ; 2-42 ; 
+;	const METAL_CLAW   ;    ;  e8 ; 2-43 ; 
+;	const VITAL_THROW  ;    ;  e9 ; 2-44 ; 
+;	const MORNING_SUN  ;    ;  ea ; 2-45 ; 
+;	const SYNTHESIS    ;    ;  eb ; 2-46 ; 
+;	const MOONLIGHT    ;    ;  ec ; 2-47 ; 
+;	const HIDDEN_POWER ;    ;  ed ; 2-48 ; 
+;	const CROSS_CHOP   ;    ;  ee ; 2-49 ; 
+;	const TWISTER      ;    ;  ef ; 2-4a ; 
+;	const RAIN_DANCE   ;    ;  f0 ; 2-4b ; 
+;	const SUNNY_DAY    ;    ;  f1 ; 2-4c ; 
+;	const CRUNCH       ;    ;  f2 ; 2-4d ; 
+;	const MIRROR_COAT  ;    ;  f3 ; 2-4e ; 
+;	const PSYCH UP     ;    ;  f4 ; 2-4f ; 
+;	const EXTREMESPEED ;    ;  f5 ; 2-50 ; 
+;	const ANCIENTPOWER ;    ;  f6 ; 2-51 ; 
+;	const SHADOW_BALL  ;    ;  f7 ; 2-52 ; 
+;	const FUTURE_SIGHT ;    ;  f8 ; 2-53 ; 
+;	const ROCK_SMASH   ;    ;  f9 ; 2-54 ; 
+;	const WHIRLPOOL    ;    ;  fa ; 2-55 ; 
+;	const BEAT_UP      ;    ;  fb ; 2-56 ; 
+; THIS IS NOW THE GEN3 LIST ; RSE ; gen# ; effect
 NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

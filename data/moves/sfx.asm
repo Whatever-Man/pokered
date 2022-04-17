@@ -166,5 +166,14 @@ MoveSoundTable:
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
+;	db SFX_BATTLE_0F,          $08, $10 ; SKETCH (Splash)
+;	db SFX_BATTLE_17,          $f0, $40 ; TRIPLE_KICK (Double Kick)
+;	db SFX_SILPH_SCOPE,        $00, $ff ; THIEF (Payday)
+;	db SFX_BATTLE_0F,          $08, $10 ; SPIDER_WEB (Splash)
+;	db SFX_BATTLE_33,          $80, $40 ; MIND_READER (Double Team)
+;	db SFX_BATTLE_35,          $42, $01 ; NIGHTMARE (Dream Eater)
+;	db SFX_BATTLE_19,          $21, $e0 ; FLAME_WHEEL (Flamethrower)
+;	db SFX_BATTLE_20,          $00, $80 ; SNORE (Stomp)
+;	db SFX_BATTLE_27,          $ff, $40 ; CURSE (Disable)
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

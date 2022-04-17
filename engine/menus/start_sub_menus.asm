@@ -130,7 +130,8 @@ StartMenu_Pokemon::
 	dw .teleport
 	dw .softboiled
 .fly
-	bit BIT_THUNDERBADGE, a
+;	bit BIT_THUNDERBADGE, a     ; Original Badge for Fly was Surge's
+	bit BIT_SOULBADGE, a        ; New Badge for Fly is Koga's 
 	jp z, .newBadgeRequired
 	call CheckIfInOutsideMap
 	jr z, .canFly
@@ -150,7 +151,8 @@ StartMenu_Pokemon::
 	set 1, [hl]
 	jp StartMenu_Pokemon
 .cut
-	bit BIT_CASCADEBADGE, a
+;	bit BIT_CASCADEBADGE, a     ; Original Badge for Cut was Misty's 
+	bit BIT_RAINBOWBADGE, a     ; New Badge for Cut is Erika's 
 	jp z, .newBadgeRequired
 	predef UsedCut
 	ld a, [wActionResultOrTookBattleTurn]
@@ -158,7 +160,8 @@ StartMenu_Pokemon::
 	jp z, .loop
 	jp CloseTextDisplay
 .surf
-	bit BIT_SOULBADGE, a
+;	bit BIT_SOULBADGE, a        ; Original Badge for Surf was Koga's 
+	bit BIT_CASCADEBADGE, a     ; New Badge for Surf is Misty's 
 	jp z, .newBadgeRequired
 	farcall IsSurfingAllowed
 	ld hl, wd728
@@ -175,13 +178,15 @@ StartMenu_Pokemon::
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .strength
-	bit BIT_RAINBOWBADGE, a
+;	bit BIT_RAINBOWBADGE, a     ; Original Badge for Strength was Erika's 
+	bit BIT_BOULDERBADGE, a     ; New Badge for Strength is Brock's 
 	jp z, .newBadgeRequired
 	predef PrintStrengthTxt
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .flash
-	bit BIT_BOULDERBADGE, a
+;	bit BIT_BOULDERBADGE, a     ; Original Badge for Flash was Brock's
+	bit BIT_THUNDERBADGE, a     ; New Badge for Flash is Surge's
 	jp z, .newBadgeRequired
 	xor a
 	ld [wMapPalOffset], a

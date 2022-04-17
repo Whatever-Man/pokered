@@ -48,6 +48,256 @@ OakSpeech:
 	ld a, 1
 	ld [wItemQuantity], a
 	call AddItemToInventory  ; give one potion
+;	ld a, SUPER_POTION
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, HYPER_POTION
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, MAX_POTION
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ANTIDOTE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, AWAKENING
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, BURN_HEAL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ICE_HEAL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, PARLYZ_HEAL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, FRESH_WATER
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, SODA_POP
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, LEMONADE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, FULL_HEAL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, FULL_RESTORE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ETHER
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, MAX_ETHER
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ELIXER
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, MAX_ELIXER
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, REVIVE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, MAX_REVIVE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+	ld a, RARE_CANDY                           ; This set of lines is for easy testing purposes 
+	ld [wcf91], a
+	ld a, 90
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion
+;	ld a, PP_UP
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, HP_UP
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, PROTEIN
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, IRON
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, CARBOS
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, CALCIUM
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, DIRE_HIT
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, GUARD_SPEC
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, X_ACCURACY
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, X_ATTACK
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, X_DEFEND
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, X_SPEED
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, X_SPECIAL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, POKE_BALL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, GREAT_BALL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ULTRA_BALL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+	ld a, MASTER_BALL                          ; This set of lines is for easy testing purposes 
+	ld [wcf91], a
+	ld a, 90
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion
+;	ld a, REPEL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, SUPER_REPEL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, MAX_REPEL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, ESCAPE_ROPE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+	ld a, MOON_STONE                           ; This set of lines is for easy testing purposes 
+	ld [wcf91], a
+	ld a, 10
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion
+;	ld a, LEAF_STONE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, FIRE_STONE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, WATER_STONE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, THUNDER_STONE
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, EXP_ALL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+;	ld a, POKE_DOLL
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
+	ld a, NUGGET                               ; This set of lines is for easy testing purposes 
+	ld [wcf91], a
+	ld a, 50
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion
+;	ld a, TM50
+;	ld [wcf91], a
+;	ld a, 10
+;	ld [wItemQuantity], a
+;	call AddItemToInventory  ; give one potion
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call SpecialWarpIn

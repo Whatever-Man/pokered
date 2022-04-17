@@ -164,7 +164,68 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
-	dw StruggleAnim
+	dw StruggleAnim     ; a5 ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
+; HERE STARTS GEN2 LIST      ; RSE ; gen# 
+;	dw SketchAnim       ;    ;  a6 ; 2-01 ; 
+;	dw TripleKickAnim   ;    ;  a7 ; 2-02 ; 
+;	dw ThiefAnim        ;    ;  a8 ; 2-03 ; 
+;	dw SpiderWebAnim    ;    ;  a9 ; 2-04 ; 
+;	dw MindReaderAnim   ;    ;  aa ; 2-05 ; 
+;	dw NightmareAnim    ;    ;  ab ; 2-06 ; 
+;	dw FlameWheelAnim   ;    ;  ac ; 2-07 ; 
+;	dw SnoreAnim        ;    ;  ad ; 2-08 ; 
+;	dw CurseAnim        ;    ;  ae ; 2-09 ; 
+;	dw FlailAnim        ;    ;  af ; 2-0a ; 
+;	dw Conversion2Anim  ;    ;  b0 ; 2-0b ; 
+;	dw AeroblastAnim    ;    ;  b1 ; 2-0c ; 
+;	dw CottonSporeAnim  ;    ;  b2 ; 2-0d ; 
+;	dw ReversalAnim     ;    ;  b3 ; 2-0e ; 
+;	dw SpiteAnim        ;    ;  b4 ; 2-0f ; 
+;	dw PowderSnowAnim   ;    ;  b5 ; 2-10 ; 
+;	dw ProtectAnim      ;    ;  b6 ; 2-11 ; 
+;	dw MachPunchAnim    ;    ;  b7 ; 2-12 ; 
+;	dw ScaryFaceAnim    ;    ;  b8 ; 2-13 ; 
+;	dw FaintAttackAnim  ;    ;  b9 ; 2-14 ; 
+;	dw SweetKissAnim    ;    ;  ba ; 2-15 ; 
+;	dw BellyDrumAnim    ;    ;  bb ; 2-16 ; 
+;	dw SludgeBombAnim   ;    ;  bc ; 2-17 ; 
+;	dw MudSlapAnim      ;    ;  bd ; 2-18 ; 
+;	dw OctazookaAnim    ;    ;  be ; 2-19 ; 
+;	dw SpikesAnim       ;    ;  bf ; 2-1a ; 
+;	dw ZapCannonAnim    ;    ;  c0 ; 2-1b ; 
+;	dw ForesightAnim    ;    ;  c1 ; 2-1c ; 
+;	dw DestinyBondAnim  ;    ;  c2 ; 2-1d ; 
+;	dw PerishSongAnim   ;    ;  c3 ; 2-1e ; 
+;	dw IcyWindAnim      ;    ;  c4 ; 2-1f ; 
+;	dw DetectAnim       ;    ;  c5 ; 2-20 ; 
+;	dw BoneRushAnim     ;    ;  c6 ; 2-21 ; 
+;	dw LockOnAnim       ;    ;  c7 ; 2-22 ; 
+;	dw OutrageAnim      ;    ;  c8 ; 2-23 ; 
+;	dw SandstormAnim    ;    ;  c9 ; 2-24 ; 
+;	dw GigaDrainAnim    ;    ;  ca ; 2-25 ; 
+;	dw EndureAnim       ;    ;  cb ; 2-26 ; 
+;	dw CharmAnim        ;    ;  cc ; 2-27 ; 
+;	dw RolloutAnim      ;    ;  cd ; 2-28 ; 
+;	dw FalseSwipeAnim   ;    ;  ce ; 2-29 ; 
+;	dw SwaggerAnim      ;    ;  cf ; 2-2a ; 
+;	dw MilkDrinkAnim    ;    ;  d0 ; 2-2b ; 
+;	dw SparkAnim        ;    ;  d1 ; 2-2c ; 
+;	dw FuryCutterAnim   ;    ;  d2 ; 2-2d ; 
+;	dw SteelWingAnim    ;    ;  d3 ; 2-2e ; 
+;	dw MeanLookAnim     ;    ;  d4 ; 2-2f ; 
+;	dw AttractAnim      ;    ;  d5 ; 2-30 ; 
+;	dw SleepTalkAnim    ;    ;  d6 ; 2-31 ; 
+;	dw HealBellAnim     ;    ;  d7 ; 2-32 ; 
+;	dw ReturnAnim       ;    ;  d8 ; 2-33 ; 
+;	dw PresentAnim      ;    ;  d9 ; 2-34 ; 
+;	dw FrustrationAnim  ;    ;  da ; 2-35 ; 
+;	dw SafeguardAnim    ;    ;  db ; 2-36 ; 
+;	dw PainSplitAnim    ;    ;  dc ; 2-37 ; 
+;	dw SacredFireAnim   ;    ;  dd ; 2-38 ; 
+;	dw MagnitudeAnim    ;    ;  de ; 2-39 ; 
+;	dw DynamicPunchAnim ;    ;  df ; 2-3a ; 
+;	dw MegahornAnim     ;    ;  e0 ; 2-3b ; 
+;
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -1140,6 +1201,59 @@ SubstituteAnim:
 	battle_anim NO_MOVE, SE_SUBSTITUTE_MON
 	db -1 ; end
 
+;SketchAnim:
+;	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
+;	db -1 ; end
+;
+;TripleKickAnim:
+;	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
+;	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
+;	db -1 ; end
+;
+;ThiefAnim:
+;	battle_anim POUND, SUBANIM_01, 0, 8
+;	battle_anim PAY_DAY, SUBANIM_52, 0, 4
+;	db -1 ; end
+;
+;SpiderWebAnim:
+;	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
+;	db -1 ; end
+;
+;MindReaderAnim:
+;	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+;	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+;	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+;	battle_anim DOUBLE_TEAM, SE_SHAKE_BACK_AND_FORTH
+;	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+;	battle_anim BARRIER, SUBANIM_33, 1, 6
+;	db -1 ; end
+;
+;NightmareAnim:
+;	battle_anim DREAM_EATER, SE_FLASH_SCREEN_LONG
+;	battle_anim DREAM_EATER, SE_DARK_SCREEN_PALETTE
+;	battle_anim DREAM_EATER, SUBANIM_02, 0, 8
+;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+;
+;FlameWheelAnim:
+;	battle_anim FLAMETHROWER, SUBANIM_1F, 1, 6
+;	battle_anim FLAMETHROWER, SUBANIM_0C, 1, 6
+;	battle_anim FLAMETHROWER, SUBANIM_0D, 1, 6
+;	db -1 ; end
+;
+;SnoreAnim: 
+;	battle_anim STOMP, SUBANIM_05, 1, 8
+;	db -1 ; end
+;
+;CurseAnim: 
+;	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+;	battle_anim LEER, SE_DARK_SCREEN_FLASH
+;	battle_anim LEER, SE_DARK_SCREEN_FLASH
+;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+;	db -1 ; end
+;
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_06, 0, 3
 	db -1 ; end

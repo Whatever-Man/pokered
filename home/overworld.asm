@@ -494,8 +494,11 @@ WarpFound2::
 	ld [wUnusedD366], a ; not read
 	ldh a, [hWarpDestinationMap]
 	ld [wCurMap], a
+	cp POWER_PLANT               ; Checks if POWER_PLANT
+	jr z, .needsFlash            ; If yes, jump to .needsFlash
 	cp ROCK_TUNNEL_1F
 	jr nz, .notRockTunnel
+.needsFlash
 	ld a, $06
 	ld [wMapPalOffset], a
 	call GBFadeOutToBlack

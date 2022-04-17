@@ -6,16 +6,16 @@
 ; - KeyItemFlags (see data/items/key_items.asm)
 ; - ItemUsePtrTable (see engine/items/item_effects.asm)
 	const_def
-	const NO_ITEM       ; $00
+	const NO_ITEM       ; $00 ; NOTHING 
 	const MASTER_BALL   ; $01
 	const ULTRA_BALL    ; $02
 	const GREAT_BALL    ; $03
 	const POKE_BALL     ; $04
 	const TOWN_MAP      ; $05
 	const BICYCLE       ; $06
-	const SURFBOARD     ; $07 buggy?
+	const SURFBOARD     ; $07 ; buggy?
 	const SAFARI_BALL   ; $08
-	const POKEDEX       ; $09
+	const POKEDEX       ; $09 ; No_Item
 	const MOON_STONE    ; $0A
 	const ANTIDOTE      ; $0B
 	const BURN_HEAL     ; $0C
@@ -27,16 +27,16 @@
 	const HYPER_POTION  ; $12
 	const SUPER_POTION  ; $13
 	const POTION        ; $14
-	const BOULDERBADGE  ; $15
-	const CASCADEBADGE  ; $16
+	const BOULDERBADGE  ; $15 ; No_Item 
+	const CASCADEBADGE  ; $16 ; No_Item 
 SAFARI_BAIT EQU $15 ; overload
 SAFARI_ROCK EQU $16 ; overload
-	const THUNDERBADGE  ; $17
-	const RAINBOWBADGE  ; $18
-	const SOULBADGE     ; $19
-	const MARSHBADGE    ; $1A
-	const VOLCANOBADGE  ; $1B
-	const EARTHBADGE    ; $1C
+	const THUNDERBADGE  ; $17 ; No_Item 
+	const RAINBOWBADGE  ; $18 ; No_Item 
+	const SOULBADGE     ; $19 ; No_Item 
+	const MARSHBADGE    ; $1A ; No_Item 
+	const VOLCANOBADGE  ; $1B ; No_Item 
+	const EARTHBADGE    ; $1C ; No_Item 
 	const ESCAPE_ROPE   ; $1D
 	const REPEL         ; $1E
 	const OLD_AMBER     ; $1F
@@ -52,13 +52,13 @@ SAFARI_ROCK EQU $16 ; overload
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
 	const SECRET_KEY    ; $2B
-	const UNUSED_ITEM   ; $2C "?????"
+	const UNUSED_ITEM   ; $2C ; "?????"
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const LEAF_STONE    ; $2F
 	const CARD_KEY      ; $30
 	const NUGGET        ; $31
-	const PP_UP_2       ; $32
+	const PP_UP_2       ; $32 ; UnUsed Item 
 	const POKE_DOLL     ; $33
 	const FULL_HEAL     ; $34
 	const REVIVE        ; $35
@@ -67,7 +67,7 @@ SAFARI_ROCK EQU $16 ; overload
 	const SUPER_REPEL   ; $38
 	const MAX_REPEL     ; $39
 	const DIRE_HIT      ; $3A
-	const COIN          ; $3B
+	const COIN          ; $3B ; No_Item 
 	const FRESH_WATER   ; $3C
 	const SODA_POP      ; $3D
 	const LEMONADE      ; $3E

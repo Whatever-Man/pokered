@@ -292,7 +292,7 @@ SlowbroEvosMoves:
 
 IvysaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 32, VENUSAUR
+	db EV_LEVEL, 48, VENUSAUR
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
@@ -615,6 +615,7 @@ SlowpokeEvosMoves:
 KadabraEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, ALAKAZAM
+	db EV_LEVEL, 25, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -628,6 +629,7 @@ KadabraEvosMoves:
 GravelerEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GOLEM
+	db EV_LEVEL, 37, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -653,6 +655,7 @@ ChanseyEvosMoves:
 MachokeEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, MACHAMP
+	db EV_LEVEL, 37, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1687,6 +1690,7 @@ MissingNo92EvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GENGAR
+	db EV_LEVEL, 37, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1745,7 +1749,7 @@ StarmieEvosMoves:
 
 BulbasaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, IVYSAUR
+	db EV_LEVEL, 32, IVYSAUR
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
@@ -1977,7 +1981,7 @@ MissingNoAFEvosMoves:
 
 CharmanderEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, CHARMELEON
+	db EV_LEVEL, 32, CHARMELEON
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -1990,7 +1994,7 @@ CharmanderEvosMoves:
 
 SquirtleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, WARTORTLE
+	db EV_LEVEL, 32, WARTORTLE
 	db 0
 ; Learnset
 	db 8, BUBBLE
@@ -2003,7 +2007,7 @@ SquirtleEvosMoves:
 
 CharmeleonEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, CHARIZARD
+	db EV_LEVEL, 48, CHARIZARD
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -2016,7 +2020,7 @@ CharmeleonEvosMoves:
 
 WartortleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, BLASTOISE
+	db EV_LEVEL, 48, BLASTOISE
 	db 0
 ; Learnset
 	db 8, BUBBLE

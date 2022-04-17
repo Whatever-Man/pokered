@@ -295,6 +295,7 @@ IvysaurEvosMoves:
 	db EV_LEVEL, 48, VENUSAUR
 	db 0
 ; Learnset
+<<<<<<< Updated upstream
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
@@ -302,6 +303,24 @@ IvysaurEvosMoves:
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
+=======
+;	db 7, LEECH_SEED
+;	db 13, VINE_WHIP
+;	db 22, POISONPOWDER
+;	db 30, RAZOR_LEAF
+;	db 38, GROWTH
+;	db 46, SLEEP_POWDER
+;	db 54, SOLARBEAM
+	db 6, LEECH_SEED
+	db 11, VINE_WHIP
+	db 17, POISONPOWDER
+	db 23, SLEEP_POWDER
+	db 29, RAZOR_LEAF
+	db 37, GROWTH
+	db 45, TAKE_DOWN
+	db 53, PETAL_DANCE
+	db 61, SOLARBEAM
+>>>>>>> Stashed changes
 	db 0
 
 ExeggutorEvosMoves:
@@ -1752,25 +1771,44 @@ BulbasaurEvosMoves:
 	db EV_LEVEL, 32, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+;	db 7, LEECH_SEED
+;	db 13, VINE_WHIP
+;	db 20, POISONPOWDER
+;	db 27, RAZOR_LEAF
+;	db 34, GROWTH
+;	db 41, SLEEP_POWDER
+;	db 48, SOLARBEAM
+	db 6, LEECH_SEED
+	db 11, VINE_WHIP
+	db 17, POISONPOWDER
+	db 23, SLEEP_POWDER
+	db 29, RAZOR_LEAF
+	db 35, GROWTH
+	db 41, TAKE_DOWN
+	db 47, PETAL_DANCE
+	db 53, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 43, GROWTH
-	db 55, SLEEP_POWDER
+;	db 7, LEECH_SEED
+;	db 13, VINE_WHIP
+;	db 22, POISONPOWDER
+;	db 30, RAZOR_LEAF
+;	db 43, GROWTH
+;	db 55, SLEEP_POWDER
+;	db 65, SOLARBEAM
+	db 6, LEECH_SEED
+	db 11, VINE_WHIP
+	db 17, POISONPOWDER
+	db 23, SLEEP_POWDER
+	db 29, RAZOR_LEAF
+	db 37, GROWTH
+	db 45, TAKE_DOWN
+	db 48, MEGA_DRAIN
+	db 55, PETAL_DANCE
 	db 65, SOLARBEAM
 	db 0
 

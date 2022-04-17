@@ -1,6 +1,7 @@
 	db DEX_MEW ; pokedex id
 
-	db 100, 100, 100, 100, 100
+;	db 100, 100, 100, 100, 100
+	db 110, 110, 110, 110, 110
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

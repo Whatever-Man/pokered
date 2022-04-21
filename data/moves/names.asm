@@ -167,12 +167,12 @@ MoveNames::
 	li "STRUGGLE"     ; a5 ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
 ; HERE STARTS GEN2 LIST    ; GSC ; gen# ; effect
 ;	li "SKETCH"       ;    ;  a6 ; 2-01 ; (unused-splash)
-;	li "TRIPLE KICK"  ;    ;  a7 ; 2-02 ; (2-5 hits)
-;	li "THIEF"        ;    ;  a8 ; 2-03 ; (Dark-type Payday)
+	li "TRIPLE KICK"  ; a6 ;  a7 ; 2-02 ; (2-5 hits)
+	li "THIEF"        ; a7 ;  a8 ; 2-03 ; (Dark-type Payday)
 ;	li "SPIDER WEB"   ;    ;  a9 ; 2-04 ; (unused-splash)
-;	li "MIND READER"  ;    ;  aa ; 2-05 ; (1-stage up accuracy)
+	li "MIND READER"  ; a8 ;  aa ; 2-05 ; (1-stage up accuracy)
 ;	li "NIGHTMARE"    ;    ;  ab ; 2-06 ; (duplicate Dream Eater)
-;	li "FLAME WHEEL"  ;    ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
+	li "FLAME WHEEL"  ; a9 ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
 ;	li "SNORE"        ;    ;  ad ; 2-08 ; (40-BP, Normal, 30% Flinch)
 ;	li "CURSE"        ;    ;  ae ; 2-09 ; (1-stage up att/def, 1-stage down speed, currently-broken w/ DISABLE)
 ;	li "FLAIL"        ;    ;  af ; 2-0a ; 
@@ -230,12 +230,12 @@ MoveNames::
 ;	li "ENCORE"       ;    ;  e3 ; 2-3e ; 
 ;	li "PURSUIT"      ;    ;  e4 ; 2-3f ; 
 ;	li "RAPID_SPIN"   ;    ;  e5 ; 2-40 ; 
-;	li "SWEET_SCENT"  ;    ;  e6 ; 2-41 ; 
+	li "SWEET_SCENT"  ; a7 ;  e6 ; 2-41 ; 
 ;	li "IRON_TAIL"    ;    ;  e7 ; 2-42 ; 
 ;	li "METAL_CLAW"   ;    ;  e8 ; 2-43 ; 
 ;	li "VITAL_THROWN" ;    ;  e9 ; 2-44 ; 
 ;	li "MORNING_SUN"  ;    ;  ea ; 2-45 ; 
-;	li "SYNTHESIS"    ;    ;  eb ; 2-46 ; 
+	li "SYNTHESIS"    ; a8 ;  eb ; 2-46 ; 
 ;	li "MOONLIGHT"    ;    ;  ec ; 2-47 ; 
 ;	li "HIDDEN_POWER" ;    ;  ed ; 2-48 ; 
 ;	li "CROSS_CHOP"   ;    ;  ee ; 2-49 ; 

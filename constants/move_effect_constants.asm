@@ -27,7 +27,7 @@
 	const SPEED_DOWN1_EFFECT         ; $14 1-stage down   String Shot
 	const SPECIAL_DOWN1_EFFECT       ; $15
 	const ACCURACY_DOWN1_EFFECT      ; $16 1-stage down   Sand Attack, Smokescreen, Kinesis, Flash
-	const EVASION_DOWN1_EFFECT       ; $17 1-stage down   Foresight(temp)
+	const EVASION_DOWN1_EFFECT       ; $17 1-stage down   Sweet Scent, Foresight(temp)
 	const CONVERSION_EFFECT          ; $18                Conversion
 	const HAZE_EFFECT                ; $19                Haze
 	const BIDE_EFFECT                ; $1A                Bide
@@ -60,7 +60,7 @@
 	const SPECIAL_UP2_EFFECT         ; $35 2-stage up     Amnesia
 	const ACCURACY_UP2_EFFECT        ; $36
 	const EVASION_UP2_EFFECT         ; $37
-	const HEAL_EFFECT                ; $38                Recover, Softboiled, Rest
+	const HEAL_EFFECT                ; $38                Recover, Softboiled, Rest, Synthesis
 	const TRANSFORM_EFFECT           ; $39                Transform
 	const ATTACK_DOWN2_EFFECT        ; $3A
 	const DEFENSE_DOWN2_EFFECT       ; $3B 2-stage down   Screech

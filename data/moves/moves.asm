@@ -11,7 +11,8 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
+;	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -179,12 +180,12 @@ Moves:
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10 ;    ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
 ; HERE STARTS GEN2 LIST                                                            ; GSC ; gen# 
 ;	move SKETCH,       SPLASH_EFFECT,                0, NORMAL,       100,  1 ;    ;  a6 ; 2-01 ; (broken)
-;	move TRIPLE_KICK,  TWO_TO_FIVE_ATTACKS_EFFECT,  10, FIGHTING,      90, 10 ;    ;  a7 ; 2-02 ; (2-5 hits)
-;	move THIEF,        PAY_DAY_EFFECT,              40, DARK,         100, 10 ;    ;  a8 ; 2-03 ; (Dark-type Payday)
+	move TRIPLE_KICK,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, FIGHTING,      90, 10 ;    ;  a7 ; 2-02 ; (2-5 hits)
+	move THIEF,        PAY_DAY_EFFECT,              40, DARK,         100, 10 ;    ;  a8 ; 2-03 ; (Dark-type Payday)
 ;	move SPIDER_WEB,   SPLASH_EFFECT,                0, BUG,          100, 10 ;    ;  a9 ; 2-04 ; (broken)
-;	move MIND_READER,  ACCURACY_UP1_EFFECT,          0, NORMAL,       100,  5 ;    ;  aa ; 2-05 ; (1-stage up accuracy)
+	move MIND_READER,  ACCURACY_UP1_EFFECT,          0, NORMAL,       100,  5 ;    ;  aa ; 2-05 ; (1-stage up accuracy)
 ;	move NIGHTMARE,    DREAM_EATER_EFFECT,           0, GHOST,        100, 15 ;    ;  ab ; 2-06 ; (duplicate Dream Eater)
-;	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 25 ;    ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
+	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 25 ;    ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
 ;	move SNORE,        FLINCH_SIDE_EFFECT2,         40, NORMAL,       100, 15 ;    ;  ad ; 2-08 ; (40-BP, Normal, 30% Flinch)
 ;	move CURSE,        DISABLE_EFFECT,               0, GHOST,        100, 10 ;    ;  ae ; 2-09 ; (1-stage up att/def, 1-stage down speed, currently-broken)
 ;	move FLAIL,        SPLASH_EFFECT,                1, NORMAL,       100, 15 ;    ;  af ; 2-0a ; (broken)
@@ -242,12 +243,12 @@ Moves:
 ;	move ENCORE,       SPLASH_EFFECT,                0, NORMAL,       100,  5 ;    ;  e3 ; 2-3e ; (broken)
 ;	move PURSUIT,      NO_ADDITIONAL_EFFECT,        40, DARK,         100, 20 ;    ;  e4 ; 2-3f ; (Should be Dark-type Quick Attack)
 ;	move RAPID_SPIN,   NO_ADDITIONAL_EFFECT,        20, NORMAL,       100, 40 ;    ;  e5 ; 2-40 ; (no effect yet)
-;	move SWEET_SCENT,  EVASION_DOWN1_EFFECT,         0, NORMAL,       100, 20 ;    ;  e6 ; 2-41 ; 
+	move SWEET_SCENT,  EVASION_DOWN1_EFFECT,         0, NORMAL,       100, 20 ;    ;  e6 ; 2-41 ; WAI
 ;	move IRON_TAIL,    DEFENSE_DOWN_SIDE_EFFECT,   100, STEEL,         75, 15 ;    ;  e7 ; 2-42 ; 
 ;	move METAL_CLAW,   DEFENSE_DOWN_SIDE_EFFECT,    50, STEEL,         95, 35 ;    ;  e8 ; 2-43 ; (enemy-def-down instead of sel-atk-up)
 ;	move VITAL_THROW,  SWIFT_EFFECT,                70, FIGHTING,     100, 10 ;    ;  e9 ; 2-44 ; (Swift_Effect for now, not yet "always_last" setup)
 ;	move MORNING_SUN,  HEAL_EFFECT,                  0, NORMAL,       100,  5 ;    ;  ea ; 2-45 ; 
-;	move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,        100,  5 ;    ;  eb ; 2-46 ; 
+	move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,        100,  5 ;    ;  eb ; 2-46 ; WAI (-weather-)
 ;	move MOONLIGHT,    HEAL_EFFECT,                  0, NORMAL,       100,  5 ;    ;  ec ; 2-47 ; 
 ;	move HIDDEN_POWER, SPLASH_EFFECT,                1, NORMAL,       100, 15 ;    ;  ed ; 2-48 ; (broken)
 ;	move CROSS_CHOP,   NO_ADDITIONAL_EFFECT,       100, FIGHTING,      80,  5 ;    ;  ee ; 2-49 ; 

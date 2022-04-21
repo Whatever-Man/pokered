@@ -165,14 +165,14 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw StruggleAnim     ; a5 ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
-; HERE STARTS GEN2 LIST      ; RSE ; gen# 
+; HERE STARTS GEN2 LIST      ; GSC ; gen# 
 ;	dw SketchAnim       ;    ;  a6 ; 2-01 ; 
-;	dw TripleKickAnim   ;    ;  a7 ; 2-02 ; 
-;	dw ThiefAnim        ;    ;  a8 ; 2-03 ; 
+	dw TripleKickAnim   ;    ;  a7 ; 2-02 ; 
+	dw ThiefAnim        ;    ;  a8 ; 2-03 ; 
 ;	dw SpiderWebAnim    ;    ;  a9 ; 2-04 ; 
-;	dw MindReaderAnim   ;    ;  aa ; 2-05 ; 
+	dw MindReaderAnim   ;    ;  aa ; 2-05 ; 
 ;	dw NightmareAnim    ;    ;  ab ; 2-06 ; 
-;	dw FlameWheelAnim   ;    ;  ac ; 2-07 ; 
+	dw FlameWheelAnim   ;    ;  ac ; 2-07 ; 
 ;	dw SnoreAnim        ;    ;  ad ; 2-08 ; 
 ;	dw CurseAnim        ;    ;  ae ; 2-09 ; 
 ;	dw FlailAnim        ;    ;  af ; 2-0a ; 
@@ -225,7 +225,34 @@ AttackAnimationPointers:
 ;	dw MagnitudeAnim    ;    ;  de ; 2-39 ; 
 ;	dw DynamicPunchAnim ;    ;  df ; 2-3a ; 
 ;	dw MegahornAnim     ;    ;  e0 ; 2-3b ; 
-;
+;	dw DragonBreathAnim ;    ;  e1 ; 2-3c ; 
+;	dw BatonPassAnim    ;    ;  e2 ; 2-3d ; 
+;	dw EncoreAnim       ;    ;  e3 ; 2-3e ; 
+;	dw PursuitAnim      ;    ;  e4 ; 2-3f ; 
+;	dw RapidSpinAnim    ;    ;  e5 ; 2-40 ; 
+	dw SweetScentAnim   ;    ;  e6 ; 2-41 ; 
+;	dw IronTailAnim     ;    ;  e7 ; 2-42 ; 
+;	dw MetalClawAnim    ;    ;  e8 ; 2-43 ; 
+;	dw VitalThrowAnim   ;    ;  e9 ; 2-44 ; 
+;	dw MorningSunAnim   ;    ;  ea ; 2-45 ; 
+	dw SynthesisAnim    ;    ;  eb ; 2-46 ; 
+;	dw MoonlightAnim    ;    ;  ec ; 2-47 ; 
+;	dw HiddenPowerAnim  ;    ;  ed ; 2-48 ; 
+;	dw CrossChopAnim    ;    ;  ee ; 2-49 ; 
+;	dw TwisterAnim      ;    ;  ef ; 2-4a ; 
+;	dw RainDanceAnim    ;    ;  f0 ; 2-4b ; 
+;	dw SunnyDayAnim     ;    ;  f1 ; 2-4c ; 
+;	dw CrunchAnim       ;    ;  f2 ; 2-4d ; 
+;	dw MirrorCoatAnim   ;    ;  f3 ; 2-4e ; 
+;	dw PsychUpAnim      ;    ;  f4 ; 2-4f ; 
+;	dw ExtremeSpeedAnim ;    ;  f5 ; 2-50 ; 
+;	dw AncientPowerAnim ;    ;  f6 ; 2-51 ; 
+;	dw ShadowBallAnim   ;    ;  f7 ; 2-52 ; 
+;	dw FutureSightAnim  ;    ;  f8 ; 2-53 ; 
+;	dw RockSmashAnim    ;    ;  f9 ; 2-54 ; 
+;	dw WhirlpoolAnim    ;    ;  fa ; 2-55 ; 
+;	dw BeatUpAnim       ;    ;  fb ; 2-56 ; 
+; HERE STARTS GEN3 LIST      ; RSE ; gen# 
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -1205,44 +1232,44 @@ SubstituteAnim:
 ;	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
 ;	db -1 ; end
 ;
-;TripleKickAnim:
-;	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
-;	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
-;	db -1 ; end
-;
-;ThiefAnim:
-;	battle_anim POUND, SUBANIM_01, 0, 8
-;	battle_anim PAY_DAY, SUBANIM_52, 0, 4
-;	db -1 ; end
-;
+TripleKickAnim:
+	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
+	battle_anim DOUBLE_KICK, SUBANIM_01, 0, 8
+	db -1 ; end
+
+ThiefAnim:
+	battle_anim POUND, SUBANIM_01, 0, 8
+	battle_anim PAY_DAY, SUBANIM_52, 0, 4
+	db -1 ; end
+
 ;SpiderWebAnim:
 ;	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
 ;	db -1 ; end
 ;
-;MindReaderAnim:
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
-;	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
-;	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-;	battle_anim DOUBLE_TEAM, SE_SHAKE_BACK_AND_FORTH
-;	battle_anim NO_MOVE, SE_SHOW_MON_PIC
-;	battle_anim BARRIER, SUBANIM_33, 1, 6
-;	db -1 ; end
-;
+MindReaderAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim DOUBLE_TEAM, SE_SHAKE_BACK_AND_FORTH
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	battle_anim BARRIER, SUBANIM_33, 1, 6
+	db -1 ; end
+
 ;NightmareAnim:
 ;	battle_anim DREAM_EATER, SE_FLASH_SCREEN_LONG
 ;	battle_anim DREAM_EATER, SE_DARK_SCREEN_PALETTE
 ;	battle_anim DREAM_EATER, SUBANIM_02, 0, 8
 ;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 ;
-;FlameWheelAnim:
-;	battle_anim FLAMETHROWER, SUBANIM_1F, 1, 6
-;	battle_anim FLAMETHROWER, SUBANIM_0C, 1, 6
-;	battle_anim FLAMETHROWER, SUBANIM_0D, 1, 6
-;	db -1 ; end
-;
+FlameWheelAnim:
+	battle_anim FLAMETHROWER, SUBANIM_1F, 1, 6
+	battle_anim FLAMETHROWER, SUBANIM_0C, 1, 6
+	battle_anim FLAMETHROWER, SUBANIM_0D, 1, 6
+	db -1 ; end
+
 ;SnoreAnim: 
 ;	battle_anim STOMP, SUBANIM_05, 1, 8
 ;	db -1 ; end
@@ -1252,6 +1279,244 @@ SubstituteAnim:
 ;	battle_anim LEER, SE_DARK_SCREEN_FLASH
 ;	battle_anim LEER, SE_DARK_SCREEN_FLASH
 ;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+;	db -1 ; end
+;
+;FlailAnim        ;    ;  af ; 2-0a ; 
+;	db -1 ; end
+;
+;Conversion2Anim  ;    ;  b0 ; 2-0b ; 
+;	db -1 ; end
+;
+;AeroblastAnim    ;    ;  b1 ; 2-0c ; 
+;	db -1 ; end
+;
+;CottonSporeAnim  ;    ;  b2 ; 2-0d ; 
+;	db -1 ; end
+;
+;ReversalAnim     ;    ;  b3 ; 2-0e ; 
+;	db -1 ; end
+;
+;SpiteAnim        ;    ;  b4 ; 2-0f ; 
+;	db -1 ; end
+;
+;PowderSnowAnim   ;    ;  b5 ; 2-10 ; 
+;	db -1 ; end
+;
+;ProtectAnim      ;    ;  b6 ; 2-11 ; 
+;	db -1 ; end
+;
+;MachPunchAnim    ;    ;  b7 ; 2-12 ; 
+;	db -1 ; end
+;
+;ScaryFaceAnim    ;    ;  b8 ; 2-13 ; 
+;	db -1 ; end
+;
+;FaintAttackAnim  ;    ;  b9 ; 2-14 ; 
+;	db -1 ; end
+;
+;SweetKissAnim    ;    ;  ba ; 2-15 ; 
+;	db -1 ; end
+;
+;BellyDrumAnim    ;    ;  bb ; 2-16 ; 
+;	db -1 ; end
+;
+;SludgeBombAnim   ;    ;  bc ; 2-17 ; 
+;	db -1 ; end
+;
+;MudSlapAnim      ;    ;  bd ; 2-18 ; 
+;	db -1 ; end
+;
+;OctazookaAnim    ;    ;  be ; 2-19 ; 
+;	db -1 ; end
+;
+;SpikesAnim       ;    ;  bf ; 2-1a ; 
+;	db -1 ; end
+;
+;ZapCannonAnim    ;    ;  c0 ; 2-1b ; 
+;	db -1 ; end
+;
+;ForesightAnim    ;    ;  c1 ; 2-1c ; 
+;	db -1 ; end
+;
+;DestinyBondAnim  ;    ;  c2 ; 2-1d ; 
+;	db -1 ; end
+;
+;PerishSongAnim   ;    ;  c3 ; 2-1e ; 
+;	db -1 ; end
+;
+;IcyWindAnim      ;    ;  c4 ; 2-1f ; 
+;	db -1 ; end
+;
+;DetectAnim       ;    ;  c5 ; 2-20 ; 
+;	db -1 ; end
+;
+;BoneRushAnim     ;    ;  c6 ; 2-21 ; 
+;	db -1 ; end
+;
+;LockOnAnim       ;    ;  c7 ; 2-22 ; 
+;	db -1 ; end
+;
+;OutrageAnim      ;    ;  c8 ; 2-23 ; 
+;	db -1 ; end
+;
+;SandstormAnim    ;    ;  c9 ; 2-24 ; 
+;	db -1 ; end
+;
+;GigaDrainAnim    ;    ;  ca ; 2-25 ; 
+;	db -1 ; end
+;
+;EndureAnim       ;    ;  cb ; 2-26 ; 
+;	db -1 ; end
+;
+;CharmAnim        ;    ;  cc ; 2-27 ; 
+;	db -1 ; end
+;
+;RolloutAnim      ;    ;  cd ; 2-28 ; 
+;	db -1 ; end
+;
+;FalseSwipeAnim   ;    ;  ce ; 2-29 ; 
+;	db -1 ; end
+;
+;SwaggerAnim      ;    ;  cf ; 2-2a ; 
+;	db -1 ; end
+;
+;MilkDrinkAnim    ;    ;  d0 ; 2-2b ; 
+;	db -1 ; end
+;
+;SparkAnim        ;    ;  d1 ; 2-2c ; 
+;	db -1 ; end
+;
+;FuryCutterAnim   ;    ;  d2 ; 2-2d ; 
+;	db -1 ; end
+;
+;SteelWingAnim    ;    ;  d3 ; 2-2e ; 
+;	db -1 ; end
+;
+;MeanLookAnim     ;    ;  d4 ; 2-2f ; 
+;	db -1 ; end
+;
+;AttractAnim      ;    ;  d5 ; 2-30 ; 
+;	db -1 ; end
+;
+;SleepTalkAnim    ;    ;  d6 ; 2-31 ; 
+;	db -1 ; end
+;
+;HealBellAnim     ;    ;  d7 ; 2-32 ; 
+;	db -1 ; end
+;
+;ReturnAnim       ;    ;  d8 ; 2-33 ; 
+;	db -1 ; end
+;
+;PresentAnim      ;    ;  d9 ; 2-34 ; 
+;	db -1 ; end
+;
+;FrustrationAnim  ;    ;  da ; 2-35 ; 
+;	db -1 ; end
+;
+;SafeguardAnim    ;    ;  db ; 2-36 ; 
+;	db -1 ; end
+;
+;PainSplitAnim    ;    ;  dc ; 2-37 ; 
+;	db -1 ; end
+;
+;SacredFireAnim   ;    ;  dd ; 2-38 ; 
+;	db -1 ; end
+;
+;MagnitudeAnim    ;    ;  de ; 2-39 ; 
+;	db -1 ; end
+;
+;DynamicPunchAnim ;    ;  df ; 2-3a ; 
+;	db -1 ; end
+;
+;MegahornAnim     ;    ;  e0 ; 2-3b ; 
+;	db -1 ; end
+;
+;DragonBreathAnim ;    ;  e1 ; 2-3c ; 
+;	db -1 ; end
+;
+;BatonPassAnim    ;    ;  e2 ; 2-3d ; 
+;	db -1 ; end
+;
+;EncoreAnim       ;    ;  e3 ; 2-3e ; 
+;	db -1 ; end
+;
+;PursuitAnim      ;    ;  e4 ; 2-3f ; 
+;	db -1 ; end
+;
+;RapidSpinAnim    ;    ;  e5 ; 2-40 ; 
+;	db -1 ; end
+;
+SweetScentAnim:
+	battle_anim PETAL_DANCE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_PETALS_FALLING
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+;IronTailAnim     ;    ;  e7 ; 2-42 ; 
+;	db -1 ; end
+;
+;MetalClawAnim    ;    ;  e8 ; 2-43 ; 
+;	db -1 ; end
+;
+;VitalThrowAnim   ;    ;  e9 ; 2-44 ; 
+;	db -1 ; end
+;
+;MorningSunAnim   ;    ;  ea ; 2-45 ; 
+;	db -1 ; end
+;
+SynthesisAnim:
+	battle_anim RECOVER, SE_BLINK_MON
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+;MoonlightAnim    ;    ;  ec ; 2-47 ; 
+;	db -1 ; end
+;
+;HiddenPowerAnim  ;    ;  ed ; 2-48 ; 
+;	db -1 ; end
+;
+;CrossChopAnim    ;    ;  ee ; 2-49 ; 
+;	db -1 ; end
+;
+;TwisterAnim      ;    ;  ef ; 2-4a ; 
+;	db -1 ; end
+;
+;RainDanceAnim    ;    ;  f0 ; 2-4b ; 
+;	db -1 ; end
+;
+;SunnyDayAnim     ;    ;  f1 ; 2-4c ; 
+;	db -1 ; end
+;
+;CrunchAnim       ;    ;  f2 ; 2-4d ; 
+;	db -1 ; end
+;
+;MirrorCoatAnim   ;    ;  f3 ; 2-4e ; 
+;	db -1 ; end
+;
+;PsychUpAnim      ;    ;  f4 ; 2-4f ; 
+;	db -1 ; end
+;
+;ExtremeSpeedAnim ;    ;  f5 ; 2-50 ; 
+;	db -1 ; end
+;
+;AncientPowerAnim ;    ;  f6 ; 2-51 ; 
+;	db -1 ; end
+;
+;ShadowBallAnim   ;    ;  f7 ; 2-52 ; 
+;	db -1 ; end
+;
+;FutureSightAnim  ;    ;  f8 ; 2-53 ; 
+;	db -1 ; end
+;
+;RockSmashAnim    ;    ;  f9 ; 2-54 ; 
+;	db -1 ; end
+;
+;WhirlpoolAnim    ;    ;  fa ; 2-55 ; 
+;	db -1 ; end
+;
+;BeatUpAnim       ;    ;  fb ; 2-56 ; 
 ;	db -1 ; end
 ;
 BallTossAnim:

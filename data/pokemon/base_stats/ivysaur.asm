@@ -1,7 +1,7 @@
 	db DEX_IVYSAUR ; pokedex id
 
-;	db  60,  62,  63,  60,  80
-	db  70,  72,  73,  70,  90
+;	db  60,  62,  63,  60,  80   ; total 325
+	db  70,  72,  73,  70,  90   ; total 375
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type

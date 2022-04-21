@@ -173,12 +173,12 @@
 	const STRUGGLE     ; a5 ;  a5 ; 1-a5 ; 165 total moves from RBGY ; 86 available slots
 ; THIS IS NOW THE GEN2 LIST ; GSC ; gen# ; effect
 ;	const SKETCH       ;    ;  a6 ; 2-01 ; (unused-splash)
-;	const TRIPLE_KICK  ;    ;  a7 ; 2-02 ; (2-5 hits)
-;	const THIEF        ;    ;  a8 ; 2-03 ; (Dark-type Payday)
+	const TRIPLE_KICK  ; a6 ;  a7 ; 2-02 ; (2-5 hits)
+	const THIEF        ; a7 ;  a8 ; 2-03 ; Dark-type Payday
 ;	const SPIDER_WEB   ;    ;  a9 ; 2-04 ; (unused-splash)
-;	const MIND_READER  ;    ;  aa ; 2-05 ; (1-stage up accuracy)
+	const MIND_READER  ; a8 ;  aa ; 2-05 ; 1-stage up accuracy, Should be next-hit never mis
 ;	const NIGHTMARE    ;    ;  ab ; 2-06 ; (duplicate Dream Eater)
-;	const FLAME_WHEEL  ;    ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
+	const FLAME_WHEEL  ; a9 ;  ac ; 2-07 ; (60-BP, Fire, 10% Burn)
 ;	const SNORE        ;    ;  ad ; 2-08 ; (40-BP, Normal, 30% Flinch)
 ;	const CURSE        ;    ;  ae ; 2-09 ; (1-stage up att/def, 1-stage down speed, currently-broken w/ DISABLE)
 ;	const FLAIL        ;    ;  af ; 2-0a ; 
@@ -236,12 +236,12 @@
 ;	const ENCORE       ;    ;  e3 ; 2-3e ; 
 ;	const PURSUIT      ;    ;  e4 ; 2-3f ; 
 ;	const RAPID_SPIN   ;    ;  e5 ; 2-40 ; 
-;	const SWEET_SCENT  ;    ;  e6 ; 2-41 ; 
+	const SWEET_SCENT  ; a7 ;  e6 ; 2-41 ; 
 ;	const IRON_TAIL    ;    ;  e7 ; 2-42 ; 
 ;	const METAL_CLAW   ;    ;  e8 ; 2-43 ; 
 ;	const VITAL_THROW  ;    ;  e9 ; 2-44 ; 
 ;	const MORNING_SUN  ;    ;  ea ; 2-45 ; 
-;	const SYNTHESIS    ;    ;  eb ; 2-46 ; 
+	const SYNTHESIS    ; a8 ;  eb ; 2-46 ; 
 ;	const MOONLIGHT    ;    ;  ec ; 2-47 ; 
 ;	const HIDDEN_POWER ;    ;  ed ; 2-48 ; 
 ;	const CROSS_CHOP   ;    ;  ee ; 2-49 ; 

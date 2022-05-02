@@ -18,8 +18,8 @@ Route1WildMons:
 	db  4, PIDGEY
 	db  4, ODDISH
 	db  4, BELLSPROUT
-	db  5, CHARMANDER
-	db  5, CHARMANDER
+	db  6, RATTATA
+	db  8, PIDGEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -360,4 +360,4 @@ INCLUDE "engine/overworld/elevator.asm"
 
 SECTION "bank30", ROMX
 
-INCLUDE "engine/items/tm_prices.asm"
+INCLUDE "engine/items/tm_prices.asm"          ; brought from bank1E

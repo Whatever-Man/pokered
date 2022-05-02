@@ -191,7 +191,7 @@ Moves:
 ;	move FLAIL,        SPLASH_EFFECT,                1, NORMAL,       100, 15 ;    ;  af ; 2-0a ; (broken)
 ;	move CONVERSION2,  CONVERSION_EFFECT,            0, NORMAL,       100, 30 ;    ;  b0 ; 2-0b ; (Conversion_duplicate)
 ;	move AEROBLAST,    NO_ADDITIONAL_EFFECT,       100, FLYING,        95,  5 ;    ;  b1 ; 2-0c ; 
-;	move COTTON_SPORE, SPEED_DOWN2_EFFECT,           0, GRASS,         85, 40 ;    ;  b2 ; 2-0d ; 
+	move COTTON_SPORE, SPEED_DOWN2_EFFECT,           0, GRASS,         85, 40 ;    ;  b2 ; 2-0d ; 
 ;	move REVERSAL,     SPLASH_EFFECT,                1, FIGHTING,     100, 15 ;    ;  b3 ; 2-0e ; (broken)
 ;	move SPITE,        SPLASH_EFFECT,                0, GHOST,        100, 10 ;    ;  b4 ; 2-0f ; (broken)
 ;	move POWDER_SNOW,  FREEZE_SIDE_EFFECT,          40, ICE,          100, 25 ;    ;  b5 ; 2-10 ; 
@@ -215,7 +215,7 @@ Moves:
 ;	move LOCK_ON,      ACCURACY_UP2_EFFECT,          0, NORMAL,       100,  5 ;    ;  c7 ; 2-22 ; (meant to never miss, currently ACC+2)
 ;	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,   90, DRAGON,       100, 15 ;    ;  c8 ; 2-23 ; 
 ;	move SANDSTORM,    SPLASH_EFFECT,                0, ROCK,         100, 10 ;    ;  c9 ; 2-24 ; (broken)
-;	move GIGA_DRAIN,   DRAIN_HP_EFFECT,             60, GRASS,        100,  5 ;    ;  ca ; 2-25 ; 
+	move GIGA_DRAIN,   DRAIN_HP_EFFECT,             60, GRASS,        100,  5 ;    ;  ca ; 2-25 ; 
 ;	move ENDURE,       SPLASH_EFFECT,                0, NORMAL,       100, 10 ;    ;  cb ; 2-26 ; (broken)
 ;	move CHARM,        ATTACK_DOWN2_EFFECT,          0, NORMAL,       100, 20 ;    ;  cc ; 2-27 ; 
 ;	move ROLLOUT,      TWO_TO_FIVE_ATTACKS_EFFECT,  30, ROCK,          90, 20 ;    ;  cd ; 2-28 ; (currently multi-hit, not fixed)
@@ -237,7 +237,7 @@ Moves:
 ;	move SACRED_FIRE,  BURN_SIDE_EFFECT2,          100, FIRE,          95,  5 ;    ;  dd ; 2-38 ; Fire_Blast effect
 ;	move MAGNITUDE,    NO_ADDITIONAL_EFFECT,        70, GROUND,       100, 30 ;    ;  de ; 2-39 ; 70-strength until I can figure out the different damage
 ;	move DYNAMICPUNCH, CONFUSION_SIDE_EFFECT,      100, FIGHTING,      50,  5 ;    ;  df ; 2-3a ; 10% effect instead of 100%
-;	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10 ;    ;  e0 ; 2-3b ; 
+	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10 ;    ;  e0 ; 2-3b ; 
 ;	move DRAGONBREATH, PARALYZE_SIDE_EFFECT2,       60, DRAGON,       100, 20 ;    ;  e1 ; 2-3c ; 
 ;	move BATON_PASS,   SPLASH_EFFECT,                0, NORMAL,       100, 40 ;    ;  e2 ; 2-3d ; (broken)
 ;	move ENCORE,       SPLASH_EFFECT,                0, NORMAL,       100,  5 ;    ;  e3 ; 2-3e ; (broken)

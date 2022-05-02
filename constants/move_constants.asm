@@ -184,7 +184,7 @@
 ;	const FLAIL        ;    ;  af ; 2-0a ; 
 ;	const CONVERSION2  ;    ;  b0 ; 2-0b ; 
 ;	const AEROBLAST    ;    ;  b1 ; 2-0c ; 
-;	const COTTON_SPORE ;    ;  b2 ; 2-0d ; 
+	const COTTON_SPORE ; aa ;  b2 ; 2-0d ; 2-stage down speed
 ;	const REVERSAL     ;    ;  b3 ; 2-0e ; 
 ;	const SPITE        ;    ;  b4 ; 2-0f ; 
 ;	const POWDER_SNOW  ;    ;  b5 ; 2-10 ; 
@@ -208,7 +208,7 @@
 ;	const LOCK_ON      ;    ;  c7 ; 2-22 ; 
 ;	const OUTRAGE      ;    ;  c8 ; 2-23 ; 
 ;	const SANDSTORM    ;    ;  c9 ; 2-24 ; 
-;	const GIGA_DRAIN   ;    ;  ca ; 2-25 ; 
+	const GIGA_DRAIN   ; ** ;  ca ; 2-25 ; 
 ;	const ENDURE       ;    ;  cb ; 2-26 ; 
 ;	const CHARM        ;    ;  cc ; 2-27 ; 
 ;	const ROLLOUT      ;    ;  cd ; 2-28 ; 
@@ -230,13 +230,13 @@
 ;	const SACRED_FIRE  ;    ;  dd ; 2-38 ; 
 ;	const MAGNITUDE    ;    ;  de ; 2-39 ; 
 ;	const DYNAMICPUNCH ;    ;  df ; 2-3a ; 
-;	const MEGAHORN     ;    ;  e0 ; 2-3b ; 
+	const MEGAHORN     ; ** ;  e0 ; 2-3b ; 
 ;	const DRAGONBREATH ;    ;  e1 ; 2-3c ; 
 ;	const BATON_PASS   ;    ;  e2 ; 2-3d ; 
 ;	const ENCORE       ;    ;  e3 ; 2-3e ; 
 ;	const PURSUIT      ;    ;  e4 ; 2-3f ; 
 ;	const RAPID_SPIN   ;    ;  e5 ; 2-40 ; 
-	const SWEET_SCENT  ; a7 ;  e6 ; 2-41 ; 
+	const SWEET_SCENT  ; ** ;  e6 ; 2-41 ; 
 ;	const IRON_TAIL    ;    ;  e7 ; 2-42 ; 
 ;	const METAL_CLAW   ;    ;  e8 ; 2-43 ; 
 ;	const VITAL_THROW  ;    ;  e9 ; 2-44 ; 

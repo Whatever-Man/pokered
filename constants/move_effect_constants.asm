@@ -7,7 +7,7 @@
 	const NO_ADDITIONAL_EFFECT       ; $00                MOST MOVES
 	const EFFECT_01                  ; $01 unused
 	const POISON_SIDE_EFFECT1        ; $02 20% Chance     Poison Sting
-	const DRAIN_HP_EFFECT            ; $03                Absorb, Mega Drain, Leech Life
+	const DRAIN_HP_EFFECT            ; $03                Absorb, Mega Drain, Leech Life, Giga Drain
 	const BURN_SIDE_EFFECT1          ; $04 10% Chance     Fire Punch, Ember, Flamethrower, Flame Wheel
 	const FREEZE_SIDE_EFFECT         ; $05 10% Chance     Ice Punch, Ice Beam, Blizzard
 	const PARALYZE_SIDE_EFFECT1      ; $06 10% Chance     Thunder Punch, ThunderShock, ThunderBolt, Thunder
@@ -64,7 +64,7 @@
 	const TRANSFORM_EFFECT           ; $39                Transform
 	const ATTACK_DOWN2_EFFECT        ; $3A
 	const DEFENSE_DOWN2_EFFECT       ; $3B 2-stage down   Screech
-	const SPEED_DOWN2_EFFECT         ; $3C
+	const SPEED_DOWN2_EFFECT         ; $3C 2-stage down   Cotton Spore
 	const SPECIAL_DOWN2_EFFECT       ; $3D
 	const ACCURACY_DOWN2_EFFECT      ; $3E
 	const EVASION_DOWN2_EFFECT       ; $3F

@@ -178,7 +178,7 @@ AttackAnimationPointers:
 ;	dw FlailAnim        ;    ;  af ; 2-0a ; 
 ;	dw Conversion2Anim  ;    ;  b0 ; 2-0b ; 
 ;	dw AeroblastAnim    ;    ;  b1 ; 2-0c ; 
-;	dw CottonSporeAnim  ;    ;  b2 ; 2-0d ; 
+	dw CottonSporeAnim  ;    ;  b2 ; 2-0d ; 
 ;	dw ReversalAnim     ;    ;  b3 ; 2-0e ; 
 ;	dw SpiteAnim        ;    ;  b4 ; 2-0f ; 
 ;	dw PowderSnowAnim   ;    ;  b5 ; 2-10 ; 
@@ -202,7 +202,7 @@ AttackAnimationPointers:
 ;	dw LockOnAnim       ;    ;  c7 ; 2-22 ; 
 ;	dw OutrageAnim      ;    ;  c8 ; 2-23 ; 
 ;	dw SandstormAnim    ;    ;  c9 ; 2-24 ; 
-;	dw GigaDrainAnim    ;    ;  ca ; 2-25 ; 
+	dw GigaDrainAnim    ;    ;  ca ; 2-25 ; 
 ;	dw EndureAnim       ;    ;  cb ; 2-26 ; 
 ;	dw CharmAnim        ;    ;  cc ; 2-27 ; 
 ;	dw RolloutAnim      ;    ;  cd ; 2-28 ; 
@@ -224,7 +224,7 @@ AttackAnimationPointers:
 ;	dw SacredFireAnim   ;    ;  dd ; 2-38 ; 
 ;	dw MagnitudeAnim    ;    ;  de ; 2-39 ; 
 ;	dw DynamicPunchAnim ;    ;  df ; 2-3a ; 
-;	dw MegahornAnim     ;    ;  e0 ; 2-3b ; 
+	dw MegahornAnim     ;    ;  e0 ; 2-3b ; 
 ;	dw DragonBreathAnim ;    ;  e1 ; 2-3c ; 
 ;	dw BatonPassAnim    ;    ;  e2 ; 2-3d ; 
 ;	dw EncoreAnim       ;    ;  e3 ; 2-3e ; 
@@ -1290,9 +1290,10 @@ FlameWheelAnim:
 ;AeroblastAnim    ;    ;  b1 ; 2-0c ; 
 ;	db -1 ; end
 ;
-;CottonSporeAnim  ;    ;  b2 ; 2-0d ; 
-;	db -1 ; end
-;
+CottonSporeAnim:
+	battle_anim SPORE, SUBANIM_36, 0, 6
+	db -1 ; end
+
 ;ReversalAnim     ;    ;  b3 ; 2-0e ; 
 ;	db -1 ; end
 ;
@@ -1362,9 +1363,15 @@ FlameWheelAnim:
 ;SandstormAnim    ;    ;  c9 ; 2-24 ; 
 ;	db -1 ; end
 ;
-;GigaDrainAnim    ;    ;  ca ; 2-25 ; 
-;	db -1 ; end
-;
+GigaDrainAnim:
+	battle_anim MEGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_21, 0, 6
+	battle_anim NO_MOVE, SUBANIM_22, 0, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
 ;EndureAnim       ;    ;  cb ; 2-26 ; 
 ;	db -1 ; end
 ;
@@ -1428,9 +1435,14 @@ FlameWheelAnim:
 ;DynamicPunchAnim ;    ;  df ; 2-3a ; 
 ;	db -1 ; end
 ;
-;MegahornAnim     ;    ;  e0 ; 2-3b ; 
-;	db -1 ; end
-;
+MegahornAnim:
+	battle_anim HORN_ATTACK, SUBANIM_45, 0, 6
+	battle_anim NO_MOVE, SUBANIM_05, 1, 2
+	battle_anim NO_MOVE, SUBANIM_05, 1, 2
+	battle_anim NO_MOVE, SUBANIM_05, 1, 2
+	battle_anim NO_MOVE, SUBANIM_05, 1, 2
+	db -1 ; end
+
 ;DragonBreathAnim ;    ;  e1 ; 2-3c ; 
 ;	db -1 ; end
 ;

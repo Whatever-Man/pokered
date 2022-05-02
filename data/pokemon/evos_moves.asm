@@ -33,8 +33,8 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
-	dw MissingNo20EvosMoves
+	dw MissingNo1FEvosMoves       ; SCIZOR
+	dw MissingNo20EvosMoves       ; SHUCKLE
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -52,26 +52,26 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw MissingNo32EvosMoves       ; HERACROSS
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw MissingNo34EvosMoves       ; HO_OH
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
-	dw MissingNo38EvosMoves
+	dw MissingNo38EvosMoves       ; SNEASEL
 	dw MankeyEvosMoves
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
-	dw MissingNo3EEvosMoves
-	dw MissingNo3FEvosMoves
+	dw MissingNo3DEvosMoves       ; TEDDIURSA
+	dw MissingNo3EEvosMoves       ; URSARING
+	dw MissingNo3FEvosMoves       ; SLUGMA
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
-	dw MissingNo43EvosMoves
-	dw MissingNo44EvosMoves
-	dw MissingNo45EvosMoves
+	dw MissingNo43EvosMoves       ; MAGCARGO
+	dw MissingNo44EvosMoves       ; SWINUB
+	dw MissingNo45EvosMoves       ; PILOSWINE
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -81,23 +81,23 @@ EvosMovesPointerTable:
 	dw DittoEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
-	dw MissingNo4FEvosMoves
-	dw MissingNo50EvosMoves
-	dw MissingNo51EvosMoves
+	dw MissingNo4FEvosMoves       ; CORSOLA
+	dw MissingNo50EvosMoves       ; REMORAID
+	dw MissingNo51EvosMoves       ; OCTILLERY
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
 	dw RaichuEvosMoves
-	dw MissingNo56EvosMoves
-	dw MissingNo57EvosMoves
+	dw MissingNo56EvosMoves       ; DELIBIRD
+	dw MissingNo57EvosMoves       ; MANTINE
 	dw DratiniEvosMoves
 	dw DragonairEvosMoves
 	dw KabutoEvosMoves
 	dw KabutopsEvosMoves
 	dw HorseaEvosMoves
 	dw SeadraEvosMoves
-	dw MissingNo5EEvosMoves
-	dw MissingNo5FEvosMoves
+	dw MissingNo5EEvosMoves       ; SKARMORY
+	dw MissingNo5FEvosMoves       ; HOUNDOUR
 	dw SandshrewEvosMoves
 	dw SandslashEvosMoves
 	dw OmanyteEvosMoves
@@ -117,38 +117,38 @@ EvosMovesPointerTable:
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
-	dw MissingNo73EvosMoves
+	dw MissingNo73EvosMoves       ; HOUNDOOM
 	dw DodrioEvosMoves
 	dw PrimeapeEvosMoves
 	dw DugtrioEvosMoves
 	dw VenomothEvosMoves
 	dw DewgongEvosMoves
-	dw MissingNo79EvosMoves
-	dw MissingNo7AEvosMoves
+	dw MissingNo79EvosMoves       ; KINGDRA
+	dw MissingNo7AEvosMoves       ; PHANPY
 	dw CaterpieEvosMoves
 	dw MetapodEvosMoves
 	dw ButterfreeEvosMoves
 	dw MachampEvosMoves
-	dw MissingNo7FEvosMoves
+	dw MissingNo7FEvosMoves       ; DONPHAN
 	dw GolduckEvosMoves
 	dw HypnoEvosMoves
 	dw GolbatEvosMoves
 	dw MewtwoEvosMoves
 	dw SnorlaxEvosMoves
 	dw MagikarpEvosMoves
-	dw MissingNo86EvosMoves
-	dw MissingNo87EvosMoves
+	dw MissingNo86EvosMoves       ; PORYGON2
+	dw MissingNo87EvosMoves       ; STANTLER
 	dw MukEvosMoves
-	dw MissingNo8AEvosMoves
+	dw MissingNo8AEvosMoves       ; SMEARGLE
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
-	dw MissingNo8CEvosMoves
+	dw MissingNo8CEvosMoves       ; TYROGUE
 	dw ElectrodeEvosMoves
 	dw ClefableEvosMoves
 	dw WeezingEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
-	dw MissingNo92EvosMoves
+	dw MissingNo92EvosMoves       ; HITMONTOP
 	dw HaunterEvosMoves
 	dw AbraEvosMoves
 	dw AlakazamEvosMoves
@@ -158,13 +158,13 @@ EvosMovesPointerTable:
 	dw BulbasaurEvosMoves
 	dw VenusaurEvosMoves
 	dw TentacruelEvosMoves
-	dw MissingNo9CEvosMoves
+	dw MissingNo9CEvosMoves       ; SMOOCHUM
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
-	dw MissingNo9FEvosMoves
-	dw MissingNoA0EvosMoves
-	dw MissingNoA1EvosMoves
-	dw MissingNoA2EvosMoves
+	dw MissingNo9FEvosMoves       ; ELEKID
+	dw MissingNoA0EvosMoves       ; MAGBY
+	dw MissingNoA1EvosMoves       ; MILTANK
+	dw MissingNoA2EvosMoves       ; BLISSEY
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
 	dw RattataEvosMoves
@@ -174,113 +174,408 @@ EvosMovesPointerTable:
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
-	dw MissingNoACEvosMoves
+	dw MissingNoACEvosMoves       ; RAIKOU
 	dw MagnemiteEvosMoves
-	dw MissingNoAEEvosMoves
-	dw MissingNoAFEvosMoves
+	dw MissingNoAEEvosMoves       ; ENTEI
+	dw MissingNoAFEvosMoves       ; SUICUNE
 	dw CharmanderEvosMoves
 	dw SquirtleEvosMoves
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
-	dw MissingNoB5EvosMoves
-	dw FossilKabutopsEvosMoves
-	dw FossilAerodactylEvosMoves
-	dw MonGhostEvosMoves
+	dw MissingNoB5EvosMoves       ; LARVITAR
+	dw FossilKabutopsEvosMoves    ; PUPITAR
+	dw FossilAerodactylEvosMoves  ; TYRANITAR
+	dw MonGhostEvosMoves          ; LUGIA
 	dw OddishEvosMoves
 	dw GloomEvosMoves
 	dw VileplumeEvosMoves
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+;	dw Chikorita   ; 152
+;	dw Bayleef     ; 153
+;	dw Meganium    ; 154
+;	dw Cyndaquil   ; 155
+;	dw Quilava     ; 156
+;	dw Typhlosion  ; 157
+;	dw Tododile    ; 158
+;	dw Croconaw    ; 159
+;	dw Feraligatr  ; 160
+;	dw Sentret     ; 
+;	dw Furret      ; 
+;	dw Hoothoot    ; 
+;	dw Noctowl     ; 
+;	dw Ledyba      ; 
+;	dw Ledian      ; 
+;	dw Spinarak    ; 
+;	dw Ariados     ; 
+;	dw Crobat      ; 
+;	dw Chinchou    ; 
+;	dw Lanturn     ; 
+;	dw Pichu       ; 
+;	dw Cleffa      ; 
+;	dw Igglybuff   ; 
+;	dw Togepi      ; 
+;	dw Togetic     ; 
+;	dw Natu        ; 
+;	dw Xatu        ; 
+;	dw Mareep      ; 
+;	dw Flaaffy     ; 
+;	dw Ampharos    ; 
+;	dw Bellossom   ; 
+;	dw Marill      ; 
+;	dw Azumarill   ; 
+;	dw Sudowoodo   ; 
+;	dw Politoed    ; 
+;	dw Hoppip      ; 
+;	dw Skiploom    ; 
+;	dw Jumpluff    ; 
+;	dw Aipom       ; 
+;	dw Sunkern     ; 
+;	dw Sunflora    ; 
+;	dw Yanma       ; 
+;	dw Wooper      ; 
+;	dw Quagsire    ; 
+;	dw Espeon      ; 
+;	dw Umbreon     ; 
+;	dw Murkrow     ; 
+;	dw Slowking    ; 
+;	dw Misdreavus  ; 
+;	dw Unown       ; 
+;	dw Wobbuffet   ; 
+;	dw Girafarig   ; 
+;	dw Pineco      ; 
+;	dw Forretress  ; 
+;	dw Dunsparce   ; 
+;	dw Gligar      ; 
+;	dw Steelix     ; 
+;	dw Snubbull    ; 
+;	dw Granbull    ; 
+;	dw Qwilfish    ; 
+;	dw Wobbuffet   ; 
+;	dw Wobbuffet   ; 
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 30, STOMP
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
 	db 48, HORN_DRILL
 	db 55, LEER
 	db 64, TAKE_DOWN
+; G2 Learnset
+;	db 13, STOMP
+;	db 19, FURY_ATTACK
+;	db 31, SCARY_FACE   ; GSC
+;	db 37, HORN_DRILL
+;	db 54, TAKE_DOWN
+;	db 65, EARTHQUAKE
+; G3 Learnset
+;	db 10, STOMP
+;	db 15, FURY_ATTACK
+;	db 24, SCARY_FACE   ; GSC
+;	db 29, ROCK_BLAST   ; RSE
+;	db 38, HORN_DRILL
+;	db 46, TAKE_DOWN
+;	db 58, EARTHQUAKE
+;	db 66, MEGAHORN     ; GSC
+; G4 Learnset
+;	db 9, STOMP
+;	db 13, FURY_ATTACK
+;	db 21, SCARY_FACE
+;	db 25, ROCK_BLAST   ; RSE
+;	db 33, TAKE_DOWN
+;	db 37, HORN_DRILL
+;	db 42, HAMMER_ARM   ; DPPt
+;	db 45, STONE_EDGE   ; DPPt
+;	db 49, EARTHQUAKE
+;	db 57, MEGAHORN     ; GSC
+; G5 Learnset
+;	db 9, STOMP
+;	db 12, FURY_ATTACK
+;	db 19, SCARY_FACE   ; GSC
+;	db 23, ROCK_BLAST   ; RSE
+;	db 30, BULLDOZE     ; BW
+;	db 34, CHIP_AWAY    ; BW
+;	db 41, TAKE_DOWN
+;	db 42, HAMMER_ARM   ; DPPt
+;	db 47, DRILL_RUN    ; BW
+;	db 56, STONE_EDGE   ; DPPt
+;	db 62, EARTHQUAKE
+;	db 71, HORN_DRILL
+;	db 77, MEGAHORN     ; GSC
+; G6 Learnset           ; UNCHANGED from G5
+; G7 Learnset
+;	db 5, FURY_ATTACK
+;	db 9, SCARY_FACE    ; GSC
+;	db 13, SMACK_DOWN   ; BW
+;	db 17, STOMP
+;	db 21, BULLDOZE     ; BW
+;	db 25, CHIP_AWAY    ; BW
+;	db 29, ROCK_BLAST   ; RSE
+;	db 33, DRILL_RUN    ; BW
+;	db 37, TAKE_DOWN
+;	db 41, STONE_EDGE   ; DPPt
+;	db 48, EARTHQUAKE
+;	db 55, MEGAHORN     ; GSC
+;	db 62, HORN_DRILL
+; G0 Learnset
+;	db 7, FURY_ATTACK
+;	db 12, STOMP
+;	db 19, ROCK_THROW
+;	db 24, DRILL_RUN
+;	db 31, TAKE_DOWN
+;	db 36, MEGAHORN     ; GSC
+;	db 48, ROCK_SLIDE
+;	db 54, EARTHQUAKE
+;	db 67, HORN_DRILL
+; G8 Learnset
+;	db 15, HORN_ATTACK
+;	db 20, SCARY_FACE   ; GSC
+;	db 25, STOMP
+;	db 30, ROCK_BLAST   ; RSE
+;	db 35, DRILL_RUN    ; BW
+;	db 40, TAKE_DOWN
+;	db 47, EARTHQUAKE
+;	db 54, STONE_EDGE   ; DPPt
+;	db 61, MEGAHORN     ; GSC
+;	db 68, HORN_DRILL
+; G* Learnset
 	db 0
 
 KangaskhanEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 26, BITE
 	db 31, TAIL_WHIP
 	db 36, MEGA_PUNCH
 	db 41, LEER
 	db 46, DIZZY_PUNCH
+; G2 Learnset
+;	db 7, LEER
+;	db 13, BITE
+;	db 19, TAIL_WHIP
+;	db 25, MEGA_PUNCH
+;	db 31, RAGE
+;	db 37, ENDURE       ; GSC
+;	db 43, DIZZY_PUNCH
+;	db 49, REVERSAL     ; GSC
+; G3 Learnset
+;	db 7, BITE
+;	db 13, TAIL_WHIP
+;	db 19, FAKE_OUT     ; RSE
+;	db 25, MEGA_PUNCH
+;	db 31, RAGE
+;	db 37, ENDURE       ; GSC
+;	db 43, DIZZY_PUNCH
+;	db 49, REVERSAL     ; GSC
+; G4 Learnset
+;	db 7, FAKE_OUT      ; RSE
+;	db 10, TAIL_WHIP
+;	db 13, BITE
+;	db 19, MEGA_PUNCH
+;	db 22, RAGE
+;	db 25, DIZZY_PUNCH
+;	db 31, CRUNCH       ; GSC
+;	db 34, ENDURE       ; GSC
+;	db 37, OUTRAGE      ; GSC
+;	db 43, DOUBLE_HIT   ; DPPt
+;	db 46, SUCKER_PUNCH ; DPPt
+;	db 49, REVERSAL     ; GSC
+; G5 Learnset
+;	db 7, FAKEOUT       ; RSE
+;	db 10, TAIL_WHIP
+;	db 13, BITE
+;	db 19, DOUBLE_HIT   ; DPPt
+;	db 22, RAGE
+;	db 25, MEGA_PUNCH
+;	db 31, CHIP_AWAY    ; BW
+;	db 34, DIZZY_PUNCH
+;	db 37, CRUNCH       ; GSC
+;	db 43, ENDURE       ; GSC
+;	db 46, OUTRAGE      ; GSC
+;	db 49, SUCKER_PUNCH ; DPPt
+;	db 55, REVERSAL     ; GSC
+; G6 Learnset
+; G7 Learnset
+; G0 Learnset
+; G8 Learnset
+; G* Learnset
 	db 0
 
 NidoranMEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, NIDORINO
 	db 0
-; Learnset
+; G1 Learnset
 	db 8, HORN_ATTACK
 	db 14, POISON_STING
 	db 21, FOCUS_ENERGY
 	db 29, FURY_ATTACK
 	db 36, HORN_DRILL
 	db 43, DOUBLE_KICK
+; G2 Learnset
+;	db 8, HORN_ATTACK
+;	db 12, DOUBLE_KICK
+;	db 17, POISON_STING
+;	db 23, FOCUS_ENERGY
+;	db 30, FURY_ATTACK
+;	db 38, HORN_DRILL
+; G3 Learnset
+;	db 8, FOCUS_ENERGY
+;	db 12, DOUBLE_KICK
+;	db 17, POISON_STING
+;	db 20, HORN_ATTACK
+;	db 23, HELPING_HAND ; RSE
+;	db 30, FURY_ATTACK
+;	db 38, FLATTER      ; RSE
+;	db 47, HORN_DRILL
+; G4 Learnset
+;	db 7, FOCUS_ENERGY
+;	db 9, DOUBLE_KICK
+;	db 13, POISON_STING
+;	db 19, FURY_ATTACK
+;	db 21, HORN_ATTACK
+;	db 25, HELPING_HAND ; RSE
+;	db 31, TOXIC_SPIKES ; DPPt
+;	db 33, FLATTER      ; RSE
+;	db 37, POISON_JAB   ; DPPt
+;	db 43, CAPTIVATE    ; DPPt
+;	db 45, HORN_DRILL
+; G5 Learnset           ; UNCHANGED from G4
+; G6 Learnset           ; UNCHANGED from G4
+; G7 Learnset           ; UNCHANGED from G4
+; G0 Learnset
+;	db 3, FOCUS_ENERGY
+;	db 6, POISON_STING
+;	db 9, DOUBLE_KICK
+;	db 12, HORN_ATTACK
+;	db 15, HELPING_HAND ; RSE
+;	db 18, TOXIC
+;	db 21, FURY_ATTACK
+;	db 24, POISON_JAB   ; DPPt
+;	db 27, HORN_DRILL
+; G8 Learnset
+;	db 5, PECK
+;	db 10, FOCUS_ENERGY
+;	db 15, FURY_ATTACK
+;	db 20, TOXIC_SPIKES ; DPPt
+;	db 25, DOUBLE_KICK
+;	db 30, HORN_ATTACK
+;	db 35, HELPING_HAND ; RSE
+;	db 40, TOXIC
+;	db 45, FLATTER      ; RSE
+;	db 50, POISON_JAB   ; DPPt
+;	db 55, EARTH_POWER  ; DPPt
+; G* Learnset
 	db 0
 
 ClefairyEvosMoves:
 ; Evolutions
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
-; Learnset
+; G1 Learnset
 	db 13, SING
 	db 18, DOUBLESLAP
 	db 24, MINIMIZE
 	db 31, METRONOME
 	db 39, DEFENSE_CURL
 	db 48, LIGHT_SCREEN
+; G2 Learnset
+;	db 4, ENCORE        ; GSC
+;	db 8, SING
+;	db 13, DOUBLESLAP
+;	db 19, MINIMIZE
+;	db 26, DEFENSE_CURL
+;	db 34, METRONOME
+;	db 43, MOONLIGHT    ; GSC
+;	db 53, LIGHT_SCREEN
+; G3 Learnset
+;	db 5, ENCORE        ; GSC
+;	db 9, SING
+;	db 13, DOUBLESLAP
+;	db 17, FOLLOW_ME    ; RSE
+;	db 21, METRONOME
+;	db 33, COSMIC_POWER ; RSE
+;	db 37, MOONLIGHT    ; GSC
+;	db 41, LIGHT_SCREEN
+;	db 45, METEOR_MASH  ; RSE
+; G* Learnset
 	db 0
 
 SpearowEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 20, FEAROW
 	db 0
-; Learnset
+; G1 Learnset
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
 	db 36, AGILITY
+; G2 Learnset
+;	db 7, LEER
+;	db 13, FURY_ATTACK
+;	db 25, PURSUIT      ; GSC
+;	db 31, MIRROR_MOVE
+;	db 37, DRILL_PECK
+;	db 43, AGILITY
+; G3 Learnset
+;	db 7, LEER
+;	db 13, FURY_ATTACK
+;	db 19, PURSUIT      ; GSC
+;	db 25, AERIAL_ACE   ; RSE
+;	db 31, MIRROR_MOVE
+;	db 37, DRILL_PECK
+;	db 43, AGILITY
+; G* Learnset
 	db 0
 
 VoltorbEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
-; Learnset
+; G1 Learnset
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
 	db 43, EXPLOSION
+; G2 Learnset
+;	db 9, SCREECH
+;	db 17, SONICBOOM
+;	db 23, SELFDESTRUCT
+;	db 29, ROLLOUT      ; GSC
+;	db 33, LIGHT_SCREEN
+;	db 37, SWIFT
+;	db 39, EXPLOSION
+;	db 41, MIRROR_COAT
+; G3 Learnset
+; G* Learnset
 	db 0
 
 NidokingEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 8, HORN_ATTACK
 	db 14, POISON_STING
 	db 23, THRASH
+; G2 Learnset
+;	db 23, THRASH
+; G3 Learnset
+; G* Learnset
 	db 0
 
 SlowbroEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
@@ -288,13 +583,23 @@ SlowbroEvosMoves:
 	db 37, WITHDRAW
 	db 44, AMNESIA
 	db 55, PSYCHIC_M
+; G2 Learnset
+;	db 6, GROWL
+;	db 15, WATER_GUN
+;	db 20, CONFUSION
+;	db 29, DISABLE
+;	db 34, HEADBUTT
+;	db 37, WITHDRAW
+;	db 46, AMNESIA
+;	db 54, PSYCHIC_M
+; G3 Learnset
+; G* Learnset
 	db 0
 
 IvysaurEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 48, VENUSAUR
 	db 0
-; Learnset
 ; G1 Learnset
 ;	db 7, LEECH_SEED
 ;	db 13, VINE_WHIP
@@ -314,16 +619,16 @@ IvysaurEvosMoves:
 ;	db 38, GROWTH
 ;	db 47, SYNTHESIS
 ;	db 56, SOLARBEAM
-; G0 Learnset
+; G* Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
 	db 14, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 19, MEGA_DRAIN
 	db 24, RAZOR_LEAF
-	db 29, SWEET_SCENT
+	db 29, SWEET_SCENT  ; GSC
 	db 37, GROWTH
-	db 45, SYNTHESIS
+	db 45, SYNTHESIS    ; GSC
 	db 53, TAKE_DOWN
 	db 61, SOLARBEAM
 	db 0
@@ -331,19 +636,34 @@ IvysaurEvosMoves:
 ExeggutorEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 28, STOMP
+; G2 Learnset
+;	db 19, STOMP
+;	db 31, EGG_BOMB
+; G3 Learnset
+; G* Learnset
 	db 0
 
 LickitungEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
+; G1 Learnset
 	db 7, STOMP
 	db 15, DISABLE
 	db 23, DEFENSE_CURL
 	db 31, SLAM
 	db 39, SCREECH
+; G2 Learnset
+;	db 7, SUPERSONIC
+;	db 13, DEFENSE_CURL
+;	db 19, STOMP
+;	db 25, WRAP
+;	db 31, DISABLE
+;	db 37, SLAM
+;	db 43, SCREECH
+; G3 Learnset
+; G* Learnset
 	db 0
 
 ExeggcuteEvosMoves:
